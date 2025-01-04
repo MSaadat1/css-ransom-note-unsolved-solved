@@ -175,7 +175,7 @@ body {
   font-family: "Franklin Gothic Medium", sans-serif;
   font-size: 40px;
   font-weight: 700;
-  font-style: none;
+  font-style: normal;
   text-decoration: overline;
   text-transform: none;
   color: #8460ec;
@@ -197,7 +197,7 @@ body {
   font-family: Verdana, Tahoma, sans-serif;
   font-size: 40px;
   font-weight: 400;
-  font-style: none;
+  font-style: normal;
   text-decoration: none;
   text-transform: none;
   color: #f40c3e;
@@ -219,7 +219,7 @@ body {
   font-family: "Segoe UI", Tahoma, sans-serif;
   font-size: 60px;
   font-weight: 400;
-  font-style: none;
+  font-style: normal;
   text-decoration: none;
   text-transform: none;
   color: #8460ec;
@@ -229,7 +229,7 @@ body {
 .frontendDLetter {
   font-family: Impact, "Arial Narrow Bold", sans-serif;
   font-size: 30px;
-  font-weight: 200;
+  font-weight: 400;
   font-style: oblique;
   text-decoration: none;
   text-transform: none;
@@ -242,8 +242,8 @@ body {
 .developerDLetter {
   font-family: "Franklin Gothic Medium", "Arial Narrow", sans-serif;
   font-size: 40px;
-  font-weight: 100px;
-  font-style: none;
+  font-weight: 400;
+  font-style: normal;
   text-decoration: overline;
   text-transform: uppercase;
   color: #645892;
@@ -252,8 +252,8 @@ body {
 .developerELetter {
   font-family: Georgia, Times, "Times New Roman", serif;
   font-size: 40px;
-  font-weight: 200;
-  font-style: none;
+  font-weight: 400;
+  font-style: normal;
   text-decoration: overline;
   text-transform: uppercase;
   color: #645892;
@@ -262,8 +262,8 @@ body {
 .developerVLetter {
   font-family: "Times New Roman", Times, serif;
   font-size: 30px;
-  font-weight: none;
-  font-style: none;
+  font-weight: 400;
+  font-style: normal;
   text-decoration: none;
   text-transform: none;
   color: #828bbf;
@@ -272,8 +272,8 @@ body {
 .developerETwoLetter {
   font-family: "Segoe UI", Tahoma, Verdana, sans-serif;
   font-size: 60px;
-  font-weight: 200;
-  font-style: none;
+  font-weight: 400;
+  font-style: normal;
   text-decoration: none;
   text-transform: none;
   color: #7b6b9a;
@@ -282,7 +282,7 @@ body {
 .developerLLetter {
   font-family: "Gill Sans", "Gill Sans MT", "Trebuchet MS", sans-serif;
   font-size: 20px;
-  font-weight: 100;
+  font-weight: 400;
   font-style: italic;
   text-decoration: none;
   text-transform: none;
@@ -290,10 +290,10 @@ body {
   background-color: #4c986b;
 }
 .developerOLetter {
-  font-family: "Lucida Sans Regular" "Lucida Sans Unicode", sans-serif;
+  font-family: "Courier New", Courier, monospace;
   font-size: 40px;
-  font-weight: 100;
-  font-style: none;
+  font-weight: 400;
+  font-style: normal;
   text-decoration: none;
   text-transform: none;
   color: #825775;
@@ -302,8 +302,8 @@ body {
 .developerPLetter {
   font-family: "Courier New", Courier, monospace;
   font-size: 30px;
-  font-weight: 100;
-  font-style: none;
+  font-weight: 400;
+  font-style: normal;
   text-decoration: overline;
   text-transform: none;
   color: #bcabe4;
@@ -313,7 +313,7 @@ body {
   font-family: "Franklin Gothic Medium", sans-serif;
   font-size: 20px;
   font-weight: 400;
-  font-style: none;
+  font-style: normal;
   text-decoration: none;
   text-transform: none;
   color: #50b73d;
@@ -323,7 +323,7 @@ body {
   font-family: "Segoe UI", Verdana, sans-serif;
   font-size: 30px;
   font-weight: 700;
-  font-style: none;
+  font-style: normal;
   text-decoration: overline;
   text-transform: none;
   color: #6315c4;
@@ -335,8 +335,8 @@ body {
 .takeTLetter {
   font-family: "Times New Roman", Times, serif;
   font-size: 30px;
-  font-weight: 200;
-  font-style: none;
+  font-weight: 400;
+  font-style: normal;
   text-decoration: underline;
   text-transform: none;
   color: #e932d8;
@@ -346,7 +346,7 @@ body {
   font-family: Arial, Helvetica, sans-serif;
   font-size: 20px;
   font-weight: 400;
-  font-style: none;
+  font-style: normal;
   text-decoration: underline;
   text-transform: uppercase;
   color: #f573e7;
@@ -355,8 +355,8 @@ body {
 .takeKLetter {
   font-family: Verdana, Geneva, Tahoma, sans-serif;
   font-size: 30px;
-  font-weight: 100;
-  font-style: none;
+  font-weight: 400;
+  font-style: normal;
   text-decoration: line-through;
   text-transform: none;
   color: #582446;
@@ -365,8 +365,8 @@ body {
 .takeELetter {
   font-family: Verdana, Geneva, Tahoma, sans-serif;
   font-size: 20px;
-  font-weight: 200;
-  font-style: none;
+  font-weight: 400;
+  font-style: normal;
   text-decoration: line-through;
   text-transform: none;
   color: #6315c4;
@@ -375,25 +375,16 @@ body {
 
 /* UP word */
 
-.upULetter {
+.upULetter,
+.upPLetter {
   font-family: Arial, Helvetica, sans-serif;
   font-size: 20px;
-  font-weight: 100;
-  font-style: none;
+  font-weight: 400;
+  font-style: normal;
   text-decoration: overline;
   text-transform: uppercase;
   color: #4ef2ca;
   background-color: #582446;
-}
-.upPLetter {
-  font-family: "Courier New", Courier, monospace;
-  font-size: 30px;
-  font-weight: 100;
-  font-style: none;
-  text-decoration: overline;
-  text-transform: none;
-  color: #4834cc;
-  background-color: #f573e7;
 }
 
 /* GARDENING word */
@@ -401,7 +392,7 @@ body {
 .gardeningGLetter {
   font-family: "Trebuchet MS", "Lucida Sans Unicode", "Lucida Grande";
   font-size: 40px;
-  font-weight: 200;
+  font-weight: 400;
   font-style: normal;
   text-decoration: solid;
   text-transform: capitalize;
@@ -411,8 +402,8 @@ body {
 .gardeningALetter {
   font-family: "Franklin Gothic Medium", "Arial Narrow", Arial, sans-serif;
   font-size: 20px;
-  font-weight: 200;
-  font-style: none;
+  font-weight: 400;
+  font-style: normal;
   text-decoration: overline;
   text-transform: lowercase;
   color: yellow;
@@ -422,7 +413,7 @@ body {
   font-family: "Lucida Sans", "Lucida Sans Regular", "Lucida Grande";
   font-size: 40px;
   font-weight: 400;
-  font-style: none;
+  font-style: normal;
   text-decoration: dotted;
   text-transform: lowercase;
   color: #166d5c;
@@ -431,7 +422,7 @@ body {
 .gardeningDLetter {
   font-family: Arial, Helvetica, sans-serif;
   font-size: 50px;
-  font-weight: 300;
+  font-weight: 400;
   font-style: italic;
   text-decoration: overline;
   text-transform: uppercase;
@@ -442,7 +433,7 @@ body {
   font-family: Georgia, Times, "Times New Roman", serif;
   font-size: 60px;
   font-weight: 400;
-  font-style: none;
+  font-style: normal;
   text-decoration: wavy;
   text-transform: lowercase;
   color: #4c986b;
@@ -462,7 +453,7 @@ body {
   font-family: Impact, "Arial Narrow Bold", sans-serif;
   font-size: 30px;
   font-weight: 350;
-  font-style: none;
+  font-style: normal;
   text-decoration: line-through;
   text-transform: lowercase;
   color: #50b73d;
@@ -481,8 +472,8 @@ body {
 .gardeningGTwoLetter {
   font-family: Arial, Helvetica, sans-serif;
   font-size: 20px;
-  font-weight: 300;
-  font-style: none;
+  font-weight: 400;
+  font-style: normal;
   text-decoration: dotted;
   text-transform: uppercase;
   color: #1b22a9;
@@ -535,7 +526,7 @@ body {
   font-family: "Gill Sans", "Gill Sans MT", "Trebuchet MS", sans-serif;
   font-size: 60px;
   font-weight: 500;
-  font-style: none;
+  font-style: normal;
   text-decoration: double;
   text-transform: uppercase;
   color: #6315c4;
@@ -554,8 +545,8 @@ body {
 .becauseETwoLetter {
   font-family: Verdana, Geneva, Tahoma, sans-serif;
   font-size: 50px;
-  font-weight: 300;
-  font-style: none;
+  font-weight: 400;
+  font-style: normal;
   text-decoration: overline;
   text-transform: none;
   color: #2d8f;
@@ -578,7 +569,7 @@ body {
   font-family: "Courier New", Courier, monospace;
   font-size: 60px;
   font-weight: 600;
-  font-style: none;
+  font-style: normal;
   text-decoration: dotted;
   text-transform: lowercase;
   color: #282a56;
@@ -598,7 +589,7 @@ body {
   font-family: "Gill Sans", "Gill Sans MT", "Trebuchet MS", sans-serif;
   font-size: 40px;
   font-weight: 400;
-  font-style: none;
+  font-style: normal;
   text-decoration: line-through;
   text-transform: uppercase;
   color: #4c986b;
@@ -610,7 +601,7 @@ body {
 .wantedWLetter {
   font-family: "Lucida Sans", "Lucida Sans Regular", "Lucida Grande";
   font-size: 30px;
-  font-weight: 300;
+  font-weight: 400;
   font-style: italic;
   text-decoration: none;
   text-transform: lowercase;
@@ -620,8 +611,8 @@ body {
 .wantedALetter {
   font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
   font-size: 20px;
-  font-weight: 200;
-  font-style: none;
+  font-weight: 400;
+  font-style: normal;
   text-decoration: overline;
   text-transform: uppercase;
   color: #50b73d;
@@ -640,8 +631,8 @@ body {
 .wantedTLetter {
   font-family: "Trebuchet MS", "Lucida Sans Unicode", "Lucida Grande";
   font-size: 50px;
-  font-weight: 300;
-  font-style: none;
+  font-weight: 400;
+  font-style: normal;
   text-decoration: underline;
   text-transform: lowercase;
   color: #4834cc;
@@ -674,7 +665,7 @@ body {
   font-family: Georgia, Times, "Times New Roman", serif;
   font-size: 35px;
   font-weight: 700;
-  font-style: none;
+  font-style: normal;
   text-decoration: wavy;
   text-transform: none;
   color: #2d8f;
@@ -697,7 +688,7 @@ body {
   font-family: Impact, "Arial Narrow Bold", sans-serif;
   font-size: 43px;
   font-weight: 320;
-  font-style: none;
+  font-style: normal;
   text-decoration: solid;
   text-transform: lowercase;
   color: #282a56;
@@ -716,7 +707,7 @@ body {
 .improvePLetter {
   font-family: "Courier New", Courier, monospace;
   font-size: 35px;
-  font-weight: 200;
+  font-weight: 400;
   font-style: italic;
   text-decoration: double;
   text-transform: lowercase;
@@ -726,7 +717,7 @@ body {
 .improveRLetter {
   font-family: "Franklin Gothic Medium", "Arial Narrow", Arial, sans-serif;
   font-size: 30px;
-  font-weight: 300;
+  font-weight: 400;
   font-style: italic;
   text-decoration: line-through;
   text-transform: uppercase;
@@ -737,7 +728,7 @@ body {
   font-family: "Gill Sans", "Gill Sans MT", "Trebuchet MS", sans-serif;
   font-size: 60px;
   font-weight: 500;
-  font-style: none;
+  font-style: normal;
   text-decoration: solid;
   text-transform: none;
   color: #bcb8e7;
@@ -779,7 +770,7 @@ body {
 .theirHLetter {
   font-family: Arial, Helvetica, sans-serif;
   font-size: 50px;
-  font-weight: 300;
+  font-weight: 400;
   font-style: italic;
   text-decoration: line-through;
   text-transform: none;
@@ -789,8 +780,8 @@ body {
 .theirELetter {
   font-family: "Lucida Sans", "Lucida Sans Regular", "Lucida Grande";
   font-size: 59px;
-  font-weight: 300;
-  font-style: none;
+  font-weight: 400;
+  font-style: normal;
   text-decoration: double;
   text-transform: uppercase;
   color: #50b73d;
@@ -823,7 +814,7 @@ body {
   font-family: "Trebuchet MS", "Lucida Sans Unicode", "Lucida Grande";
   font-size: 36px;
   font-weight: 560;
-  font-style: none;
+  font-style: normal;
   text-decoration: overline;
   text-transform: lowercase;
   color: #4c986b;
@@ -842,7 +833,7 @@ body {
 .rootOTwoLetter {
   font-family: Arial, Helvetica, sans-serif;
   font-size: 60px;
-  font-weight: 200;
+  font-weight: 400;
   font-style: italic;
   text-decoration: solid;
   text-transform: lowercase;
@@ -865,7 +856,7 @@ body {
 .skillsSLetter {
   font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
   font-size: 50px;
-  font-weight: 300;
+  font-weight: 400;
   font-style: italic;
   text-decoration: wavy;
   text-transform: uppercase;
@@ -875,7 +866,7 @@ body {
 .skillsKLetter {
   font-family: Cambria, Cochin, Georgia, Times, "Times New Roman", serif;
   font-size: 30px;
-  font-weight: 200;
+  font-weight: 400;
   font-style: italic;
   text-decoration: solid;
   text-transform: lowercase;
@@ -886,7 +877,7 @@ body {
   font-family: "Times New Roman", Times, serif;
   font-size: 49px;
   font-weight: 500;
-  font-style: none;
+  font-style: normal;
   text-decoration: double;
   text-transform: none;
   color: #4b3832;
@@ -916,7 +907,7 @@ body {
   font-family: Verdana, Geneva, Tahoma, sans-serif;
   font-size: 39px;
   font-weight: 700;
-  font-style: none;
+  font-style: normal;
   text-decoration: dashed;
   text-transform: uppercase;
   color: #3b5998;
@@ -925,33 +916,15 @@ body {
 
 /* SYMBOLS */
 
-.hyphen {
+.hyphen,
+.exclamation-mark,
+.question-mark {
   font-family: "Trebuchet MS", "Lucida Sans Unicode", "Lucida Grande";
   font-size: 50px;
-  font-weight: 300;
+  font-weight: 400;
   font-style: italic;
   text-decoration: none;
   text-transform: none;
   color: #2d8f;
   background-color: #356534;
-}
-.exclamation-mark {
-  font-family: "Gill Sans", "Gill Sans MT", "Trebuchet MS", sans-serif;
-  font-size: 50px;
-  font-weight: 400;
-  font-style: italic;
-  text-decoration: line-through;
-  text-transform: none;
-  color: #4b3832;
-  background-color: #4ef2ca;
-}
-.question-mark {
-  font-family: Impact, "Arial Narrow Bold", sans-serif;
-  font-size: 40px;
-  font-weight: 400;
-  font-style: italic;
-  text-decoration: wavy;
-  text-transform: none;
-  color: #2d8f;
-  background-color: #282a56;
 }
